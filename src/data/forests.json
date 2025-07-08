@@ -1,0 +1,44 @@
+[
+  {
+    "imageUrl": "/forest-1.jpg",
+    "country": "USA",
+    "state": "California",
+    "forest": "Tahoe National Forest",
+    "id": 1
+  },
+  {
+    "imageUrl": "/forest-2.jpg",
+    "country": "USA",
+    "state": "Washington",
+    "forest": "Olympic National Forest",
+    "id": 2
+  },
+  {
+    "imageUrl": "/forest-3.jpg",
+    "country": "USA",
+    "state": "Oregon",
+    "forest": "Mount Hood National Forest",
+    "id": 3
+  },
+  {
+    "imageUrl": "/forest-4.jpg",
+    "country": "Canada",
+    "state": "British Columbia",
+    "forest": "Great Bear Rainforest",
+    "id": 4
+  },
+  {
+    "imageUrl": "/forest-5.jpg",
+    "country": "USA",
+    "state": "Colorado",
+    "forest": "San Juan National Forest",
+    "id": 5
+  },
+  {
+    "imageUrl": "/forest-6.jpg",
+    "country": "USA",
+    "state": "Arizona",
+    "forest": "Coconino National Forest",
+    "id": 6
+  }
+]
