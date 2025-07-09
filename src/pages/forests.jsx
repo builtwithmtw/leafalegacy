@@ -1,8 +1,5 @@
-import React from "react";
 import ForestCard from "../components/forestCard";
-import ReplantSection from "../components/replantSection";
 import forests from "../data/forests.json";
-import BackButton from "../components/backButton";
 
 function ForestsPage() {
   return (
