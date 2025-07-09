@@ -1,24 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function ForestCard({
-  imageUrl = '/background.jpg',
-  country = 'USA',
-  state = 'California',
-  forest = 'Tahoe National Forest',
+  imageUrl = "/background.jpg",
+  country = "USA",
+  state = "California",
   id = 1,
 }) {
   return (
-    <Link
-      to={`/forest/${id}`}
-      className="block w-full max-w-sm"
-    >
+    <Link to={`/forest/${id}`} className="block w-full max-w-sm">
       <div
         className="relative rounded-2xl overflow-hidden h-[400px] bg-cover bg-center text-white shadow-lg transition-transform duration-300 hover:scale-[1.01]"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
         {/* Top-right Country Tag */}
-        <div className="absolute top-4 right-4 bg-green-800 text-white px-4 py-1 rounded-full text-sm font-semibold tracking-wide">
+        <div className="absolute top-4 right-4 bg-green-800 text-white px-4 py-1 rounded-full text-sm font-semibold tracking-wide font-[polaris-condensed]">
           {country}
         </div>
 
@@ -27,18 +23,9 @@ function ForestCard({
 
         {/* Bottom Content */}
         <div className="absolute bottom-6 left-6 right-6 z-10">
-          <h2 className="text-xl font-bold tracking-wide">{state}</h2>
-          <p className="text-sm font-light tracking-wider mb-4">{forest}</p>
+          <h2 className="text-xl  font-[32px] tracking-wide">{state}</h2>
 
           {/* Read More (optional visual hint) */}
-          <div className="flex items-center justify-between group w-fit">
-            <span className="uppercase text-sm font-medium tracking-wider group-hover:underline">
-              Read More
-            </span>
-            <span className="text-xl group-hover:translate-x-1 transition-transform duration-300">
-              →
-            </span>
-          </div>
         </div>
       </div>
     </Link>

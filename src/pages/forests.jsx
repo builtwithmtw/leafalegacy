@@ -2,6 +2,7 @@ import React from "react";
 import ForestCard from "../components/forestCard";
 import ReplantSection from "../components/replantSection";
 import forests from "../data/forests.json";
+import BackButton from "../components/backButton";
 
 function ForestsPage() {
   return (
@@ -9,6 +10,7 @@ function ForestsPage() {
       {/* Logo Row - Use Grid to align left and right */}
       <div className="max-w-7xl mx-auto grid grid-cols-2 items-center mb-12">
         {/* Left logo */}
+
         <img
           src="/logo1.png"
           alt="Left Logo"
@@ -25,16 +27,11 @@ function ForestsPage() {
         </div>
       </div>
 
-      
       <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6">
         {forests.map((forest, index) => (
           <ForestCard key={index} {...forest} />
         ))}
       </div>
-
-        <ReplantSection />
-
-
     </div>
   );
 }

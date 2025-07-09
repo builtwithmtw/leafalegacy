@@ -1,44 +1,56 @@
 [
   {
     "imageUrl": "/forest-1.jpg",
+    "detailImageUrl": "/forest-detail-2.jpg",
     "country": "USA",
     "state": "California",
     "forest": "Tahoe National Forest",
+    "description": "Severe wildfires have scarred the Tahoe National Forest, threatening iconic alpine ecosystems and the headwaters of the Yuba and American Rivers. By donating, you’re helping replant native pines and firs, stabilize erosion-prone slopes, and restore a forest that supports black bears, bald eagles, and millions of outdoor lovers each year. Let’s bring life back to the Sierra — one tree at a time.",
     "id": 1
   },
   {
     "imageUrl": "/forest-2.jpg",
+    "detailImageUrl": "/forest-detail-2.jpg",
     "country": "USA",
-    "state": "Washington",
-    "forest": "Olympic National Forest",
+    "state": "Colorado",
+    "forest": "Gunnison State Forest",
+    "description": "Gunnison’s high alpine forests have been battered by wildfire, drought, and bark beetle infestations — leaving large swaths deforested. Guest support helps replant native spruce, aspen, and fir in a critical watershed that supports Colorado’s rivers and wildlife. Every tree planted helps build fire-resilient forests, restore habitat for elk and lynx, and preserve Colorado’s wild backbone.",
     "id": 2
   },
   {
     "imageUrl": "/forest-3.jpg",
+    "detailImageUrl": "/forest-detail-2.jpg",
     "country": "USA",
-    "state": "Oregon",
-    "forest": "Mount Hood National Forest",
+    "state": "Georgia",
+    "forest": "Chattahoochee Oconee National Forest",
+    "description": "Georgia’s only national forest provides clean drinking water to millions, protects rare southern biodiversity, and offers green space for communities from Atlanta to the Appalachians. Replanting helps restore storm-damaged and eroded lands, rebuild habitat for native songbirds and salamanders, and keeps trails like the Appalachian Trail healthy for future hikers.",
     "id": 3
   },
   {
     "imageUrl": "/forest-4.jpg",
-    "country": "Canada",
-    "state": "British Columbia",
-    "forest": "Great Bear Rainforest",
+    "detailImageUrl": "/forest-detail-2.jpg",
+    "country": "USA",
+    "state": "Idaho",
+    "forest": "Sawtooth National Forest",
+    "description": "The Sawtooth National Forest is a rugged landscape of alpine lakes, soaring peaks, and essential wildlife corridors. But fire and disease have left critical areas bare. Guest selection supports native tree replanting that protects the headwaters of the Snake River, provides nesting ground for hawks and owls, and secures a future for Idaho’s beloved backcountry.",
     "id": 4
   },
   {
     "imageUrl": "/forest-5.jpg",
+    "detailImageUrl": "/forest-detail-2.jpg",
     "country": "USA",
-    "state": "Colorado",
-    "forest": "San Juan National Forest",
+    "state": "Pennsylvania",
+    "forest": "Allegheny National Forest",
+    "description": "Located in the foothills of the Appalachian Mountains, the Allegheny National Forest plays a vital role in sequestering carbon, filtering water, and sheltering wildlife from black bears to bobcats. Decades of oil extraction and invasive pests have degraded large sections. Replanting trees here helps heal old wounds, protect the Allegheny River, and preserve the only national forest in Pennsylvania for the next century.",
     "id": 5
   },
   {
     "imageUrl": "/forest-6.jpg",
+    "detailImageUrl": "/forest-detail-2.jpg",
     "country": "USA",
-    "state": "Arizona",
-    "forest": "Coconino National Forest",
+    "state": "New York",
+    "forest": "25 Million Trees by 2033",
+    "description": "New York's \"25 Million Trees by 2033\" initiative aims to plant 25 million trees by 2033 to combat climate change, enhance public health, and boost environmental resilience statewide. This comprehensive program involves large-scale planting, community engagement via the Tree Tracker, significant funding for nurseries and grants, and educational outreach. It prioritizes equitable distribution and supports the state's green economy, fostering a healthier, greener future for all New Yorkers.",
     "id": 6
   }
 ]

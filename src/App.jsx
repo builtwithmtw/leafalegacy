@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import ThankYouPage from "./pages/thankyou";
-import ForestDetail from "./pages/forestDetail";
 import ForestsPage from "./pages/forests";
+import Home from "./pages/home";
+import ForestDetail from "./pages/ForestDetail";
+import ThankYouPage from "./pages/thankyou";
 
 function App() {
   return (

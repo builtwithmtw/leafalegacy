@@ -1,14 +1,26 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@400;500;700;900&display=swap");
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Farro:wght@400;500;700;900&display=swap');
+@font-face {
+  font-family: "PolarisCondensed";
+  src: url("/PolarisCondensed.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-
+@font-face {
+  font-family: "PolarisCondensed";
+  src: url("/PolarisCondensed-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-family: "PolarisCondensed" !important;
+  font-weight: 500;
+  font-style: normal;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -22,18 +34,14 @@
 
 /* index.css */
 .bg-hero {
-  background-image: url('/background.jpg'); /* from public/ folder */
+  background-image: url("/background.jpg"); /* from public/ folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .farro-bold {
-  font-family: "Farro", sans-serif;
+  font-family: "Farro" !important;
   font-weight: 700;
   font-style: normal;
 }
-
-
-
-
