@@ -1,3 +1,4 @@
+import Button from "../components/button";
 import "../index.css"; // ✅ Ensure custom class is loaded
 import { Link } from "react-router-dom";
 
@@ -30,14 +31,10 @@ function Home() {
             alt="Right Logo"
             className="w-60 md:w-100  mx-auto"
           />
-          <p className="text-white text-[28px] leading-[1.41] tracking-[0.1em] text-center uppercase font-medium font-[Montserrat] mb-6">
+          <p className="text-white text-[28px] leading-[1.41] tracking-[0.1em] text-center uppercase font-medium  mb-6">
             Plant a tree in someone’s honor
           </p>
-          <a href="/forests">
-            <button className="bg-green-700 text-white px-6 py-2 rounded-full tracking-widest text-sm hover:bg-green-800 transition">
-              CHOOSE A FOREST
-            </button>
-          </a>
+          <Button url={"/forests"} text="CHOOSE A FOREST" />
         </div>
       </div>
     </div>

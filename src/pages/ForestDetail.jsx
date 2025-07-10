@@ -18,7 +18,6 @@ const ForestDetail = () => {
       <div className="grid grid-cols-2 items-center">
         {/* Left logo */}
         <div className="flex">
-          <BackButton />
           <Link to="/">
             <img
               src="/logo2.png"
@@ -30,6 +29,7 @@ const ForestDetail = () => {
 
         {/* Right logo */}
         <div className="flex justify-end">
+          <BackButton />
           <img
             src="/logo1.png"
             alt="Right Logo"
@@ -55,10 +55,9 @@ const ForestDetail = () => {
         {/* Left: 2 stacked sections */}
         <div className="flex flex-col gap-6">
           <div className="bg-[#5E9063]  text-white p-6 rounded-lg flex flex-col ">
-            <h2 className="text-2xl font-bold mb-2">
-              Rebuilding Gunnison’s Forests, One Tree at a Time
-            </h2>
-            <p className="mb-4">{description}</p>
+            <p className="mb-4  font-semibold text-custom-lg leading-8 tracking-widest">
+              {description}
+            </p>
           </div>
           {/* Image */}
           <div className="h-[366px]">

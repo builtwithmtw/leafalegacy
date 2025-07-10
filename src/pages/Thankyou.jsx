@@ -20,16 +20,16 @@ const ThankYouPage = () => {
         {/* Left logo */}
         <Link to="/">
           <img
-            src="/logo1.png"
+            src="/logo2.png"
             alt="Left Logo"
-            className="w-32 md:w-40 lg:w-48"
+            className="w-32 md:w-40 lg:w-48 scale-120"
           />
         </Link>
 
         {/* Right logo */}
         <div className="flex justify-end">
           <img
-            src="/logo2.png"
+            src="/logo1.png"
             alt="Right Logo"
             className="w-32 md:w-40 lg:w-48"
           />
@@ -63,7 +63,7 @@ const ThankYouPage = () => {
           {/* Thank you text */}
           <div className="text-center space-y-2">
             <p
-              className="text-center  leading-[139%] tracking-[3.2px]"
+              className="text-center  leading-[139%] tracking-[3.2px] w-[800px]"
               style={{
                 fontSize: "32px",
               }}

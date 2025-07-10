@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Button from "./button";
+import InputField from "./InputField";
+import TextArea from "./Textarea";
 
 const DonationForm = () => {
   const navigate = useNavigate();
@@ -8,8 +11,8 @@ const DonationForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phone: "",
-    forest: "",
+    honoreeName: "",
+    honoreeEmail: "",
     message: "",
   });
 
@@ -23,7 +26,7 @@ const DonationForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const url =
-      "https://script.google.com/macros/s/AKfycbxRfxrwapz6dnYjFGvL9rAYsRFkAaV8U0gW_hKoE3HsW4FBvne-i9qmE0H_UfgT7lMH/exec";
+      "https://script.google.com/macros/s/AKfycbyEL0sxOb5QVaPe8ZqmrOQll6L8-jRtAbOnUAb8gFCe_PNQM-fz_EzwWWlZMBDVtiM8/exec";
     const proxy = "https://corsproxy.io/?";
     setLoading(true);
 
@@ -42,8 +45,8 @@ const DonationForm = () => {
         setFormData({
           name: "",
           email: "",
-          phone: "",
-          forest: "",
+          honoreeName: "",
+          honoreeEmail: "",
           message: "",
         });
       })
@@ -59,82 +62,61 @@ const DonationForm = () => {
       className="bg-gray-50 p-6 h-full flex flex-col justify-between rounded-lg"
     >
       <div>
-        <h2 className="text-2xl font-bold mb-2">
-          Support our Forest Conservation Efforts
+        <h2 className="text-3xl  mb-2 tracking-widest font-light text-center text-[#355C39]">
+          Support Forest Conservation Efforts
         </h2>
-        <p className="mb-6 text-gray-600">
-          Your donations help us protect and preserve vital forest ecosystems,
-          ensuring a sustainable future for all.
+        <p className="mb-6 text-gray-600 font-light text-center tracking-wider">
+          Plant a tree in this location and your honoree will receive an eCard.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <input
-            type="text"
+          <InputField
             name="name"
-            placeholder="Full Name"
+            placeholder="Your Name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full border border-gray-300 px-4 py-2 rounded"
             required
           />
-          <input
-            type="email"
+
+          <InputField
             name="email"
+            type="email"
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full border border-gray-300 px-4 py-2 rounded"
-            required
-          />
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Phone"
-            value={formData.phone}
-            onChange={handleChange}
-            className="w-full border border-gray-300 px-4 py-2 rounded"
           />
 
-          <select
-            name="forest"
-            value={formData.forest}
+          <InputField
+            name="honoreeName"
+            placeholder="Honoree Name"
+            value={formData.honoreeName}
             onChange={handleChange}
-            className="w-full border border-gray-300 px-4 py-2 rounded"
-            required
-          >
-            <option value="">Select a Forest</option>
-            <option value="Tahoe National Forest">Tahoe National Forest</option>
-            <option value="Gunnison State Forest">Gunnison State Forest</option>
-            <option value="Chattahoochee Oconee National Forest">
-              Chattahoochee Oconee National Forest
-            </option>
-            <option value="Sawtooth National Forest">
-              Sawtooth National Forest
-            </option>
-            <option value="Allegheny National Forest">
-              Allegheny National Forest
-            </option>
-            <option value="25 Million Trees by 2033">
-              25 Million Trees by 2033
-            </option>
-          </select>
+          />
 
-          <textarea
+          <InputField
+            name="honoreeEmail"
+            type="email"
+            placeholder="Honoree Email"
+            value={formData.honoreeEmail}
+            onChange={handleChange}
+          />
+
+          <TextArea
             name="message"
-            placeholder="Message"
-            rows={3}
+            placeholder="Leave Your Honoree a Message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full border border-gray-300 px-4 py-2 rounded"
           />
 
-          <button
-            type="submit"
-            className="bg-[#E1BE23] text-black py-2 px-6 rounded-full font-semibold hover:bg-yellow-400 transition"
-            disabled={loading}
-          >
-            {loading ? "Submitting..." : "PLANT A TREE"}
-          </button>
+          <div className="flex justify-center mt-4">
+            <Button
+              type="submit"
+              green
+              className="bg-[#E1BE23] text-black py-2 px-6 rounded-full font-semibold hover:bg-yellow-400 transition"
+              disabled={loading}
+              text={loading ? "Submitting..." : "PLANT A TREE"}
+            />
+          </div>
         </form>
       </div>
     </div>

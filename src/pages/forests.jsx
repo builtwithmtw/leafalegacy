@@ -11,7 +11,7 @@ function ForestsPage() {
         <img
           src="/logo2.png"
           alt="Left Logo"
-          className="w-32 md:w-40 lg:w-48"
+          className="w-32 md:w-40 lg:w-48 scale-120"
         />
 
         {/* Right logo aligned to right */}
