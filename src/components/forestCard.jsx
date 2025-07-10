@@ -5,6 +5,7 @@ function ForestCard({
   imageUrl = "/background.jpg",
   country = "USA",
   state = "California",
+  forest = "Tahoe National Forest",
   id = 1,
 }) {
   return (
@@ -24,7 +25,7 @@ function ForestCard({
         {/* Bottom Content */}
         <div className="absolute bottom-6 left-6 right-6 z-10">
           <h2 className="text-xl  font-[32px] tracking-wide">{state}</h2>
-
+          <p className="text-lg font-semibold tracking-wide">{forest}</p>
           {/* Read More (optional visual hint) */}
         </div>
       </div>

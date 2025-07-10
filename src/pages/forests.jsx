@@ -9,7 +9,7 @@ function ForestsPage() {
         {/* Left logo */}
 
         <img
-          src="/logo1.png"
+          src="/logo2.png"
           alt="Left Logo"
           className="w-32 md:w-40 lg:w-48"
         />
@@ -17,7 +17,7 @@ function ForestsPage() {
         {/* Right logo aligned to right */}
         <div className="flex justify-end">
           <img
-            src="/logo2.png"
+            src="/logo1.png"
             alt="Right Logo"
             className="w-32 md:w-40 lg:w-48"
           />

@@ -36,24 +36,49 @@ const ThankYouPage = () => {
         </div>
       </div>
 
-      <div className="rounded-xl min-h-[732px] bg-[#355C39] text-white py-12 px-6 flex flex-col items-center justify-center gap-10">
-        {/* Heading */}
-        <h1 className="text-3xl md:text-5xl font-bold text-center forro-bold">
-          Leaf a Legacy
-        </h1>
+      <div
+        className="p-[10px] rounded-[20px]"
+        style={{
+          background: "linear-gradient(to bottom, #E1BE23, #355C39)",
+        }}
+      >
+        <div
+          className="rounded-xl min-h-[631px] text-white py-6 px-6 flex flex-col items-center justify-center gap-10"
+          style={{
+            backgroundImage: `
+        linear-gradient(to bottom, #01010100, #355C39),
+        url('/thanks.jpg')
+      `,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          {/* Heading */}
+          <img
+            src="/logo.png"
+            alt="Right Logo"
+            className="w-60 md:w-100 mx-auto"
+          />
 
-        {/* Thank you text */}
-        <div className="text-center space-y-2">
-          <p className="text-xl font-[32px]">
-            All done! Thank you for planting a tree!
-          </p>
-          <p className="text-sm md:text-base font-[22px]">
-            Your honoree will receive their eCard within 7 days
-          </p>
+          {/* Thank you text */}
+          <div className="text-center space-y-2">
+            <p
+              className="text-center  leading-[139%] tracking-[3.2px]"
+              style={{
+                fontSize: "32px",
+              }}
+            >
+              Thank you – a tree will grow in your honoree’s name, a living
+              legacy
+            </p>
+            <p className="text-2xl">
+              Your honoree will receive their eCard within 7 days
+            </p>
+          </div>
+
+          {/* Tree image */}
+          <img src="/tree.png" alt="Tree" className="w-[430px]" />
         </div>
-
-        {/* Tree image */}
-        <img src="/tree.png" alt="Tree" className="w-[430px]" />
       </div>
     </div>
   );
