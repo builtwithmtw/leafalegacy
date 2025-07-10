@@ -60,7 +60,7 @@ const ForestDetail = () => {
             </p>
           </div>
           {/* Image */}
-          <div className="h-[366px]">
+          <div className="h-[484px]">
             <img
               src={detailImageUrl}
               alt="Forest view"
