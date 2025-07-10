@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 function ForestCard({
   imageUrl = "/background.jpg",
-  country = "USA",
   state = "California",
   forest = "Tahoe National Forest",
   id = 1,
@@ -15,9 +14,6 @@ function ForestCard({
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
         {/* Top-right Country Tag */}
-        <div className="absolute top-4 right-4 bg-green-800 text-white px-4 py-1 rounded-full text-sm font-semibold tracking-wide font-[polaris-condensed]">
-          {country}
-        </div>
 
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
