@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import forests from "../data/forests.json";
 import DonationForm from "../components/donationForm";
 import BackButton from "../components/backButton";
+import NavLogos from "../components/navLogos";
 
 const ForestDetail = () => {
   // get id from URL paths
@@ -16,26 +17,7 @@ const ForestDetail = () => {
     <div className=" text-gray-800 relative min-h-screen bg-white px-6 md:px-12 py-10 space-y-8">
       {/* Logos */}
       <div className="grid grid-cols-2 items-center">
-        {/* Left logo */}
-        <div className="flex">
-          <Link to="/">
-            <img
-              src="/logo2.png"
-              alt="Left Logo"
-              className="w-32 md:w-40 lg:w-48"
-            />
-          </Link>
-        </div>
-
-        {/* Right logo */}
-        <div className="flex justify-end">
-          <BackButton />
-          <img
-            src="/logo1.png"
-            alt="Right Logo"
-            className="w-32 md:w-40 lg:w-48"
-          />
-        </div>
+        <NavLogos />
       </div>
 
       {/* Hero Section */}
@@ -46,7 +28,10 @@ const ForestDetail = () => {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 text-center text-white px-4 ">
           <h1 className="text-3xl md:text-5xl font-bold mb-2">{forestName}</h1>
-          <p className="text-lg md:text-xl">Preserving Nature’s Legacy</p>
+          <p className="text-lg md:text-xl">
+            Plant a tree in this location and your honoree will receive a
+            commemorative eCard
+          </p>
         </div>
       </div>
 

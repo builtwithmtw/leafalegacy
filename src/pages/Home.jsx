@@ -34,7 +34,7 @@ function Home() {
           <p className="text-white text-[28px] leading-[1.41] tracking-[0.1em] text-center uppercase font-medium  mb-6">
             Plant a tree in someone’s honor
           </p>
-          <Button url={"/forests"} text="CHOOSE A FOREST" />
+          <Button url={"/forests"} text="CHOOSE A FOREST" green />
         </div>
       </div>
     </div>

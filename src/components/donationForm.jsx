@@ -13,8 +13,18 @@ const DonationForm = () => {
     email: "",
     honoreeName: "",
     honoreeEmail: "",
+    forest: "",
     message: "",
   });
+
+  const forestList = [
+    "Tahoe National Forest (California)",
+    "Gunnison State Forest",
+    "Chattahoochee Oconee National Forest",
+    "Sawtooth National Forest",
+    "Allegheny National Forest",
+    "Tahoe National Forest (New York)",
+  ];
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -26,7 +36,7 @@ const DonationForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const url =
-      "https://script.google.com/macros/s/AKfycbyEL0sxOb5QVaPe8ZqmrOQll6L8-jRtAbOnUAb8gFCe_PNQM-fz_EzwWWlZMBDVtiM8/exec";
+      "https://script.google.com/macros/s/AKfycbyug6_Hy3V0GFUy3SpIx5ntH0gYRKwFQGYklJ0-SghsK0lQNuWwEQedlNubQimXDDk/exec";
     const proxy = "https://corsproxy.io/?";
     setLoading(true);
 
@@ -100,6 +110,23 @@ const DonationForm = () => {
             value={formData.honoreeEmail}
             onChange={handleChange}
           />
+
+          <select
+            name="forest"
+            value={formData.forest}
+            onChange={handleChange}
+            required
+            className="w-full border  border-gray-300 rounded-[16px] px-5 py-4 text-[18px]  font-light tracking-wide outline-none focus:ring-2 focus:ring-green-500 transition"
+          >
+            <option value="" disabled>
+              Select Forest
+            </option>
+            {forestList.map((forest, index) => (
+              <option key={index} value={forest}>
+                {forest}
+              </option>
+            ))}
+          </select>
 
           <TextArea
             name="message"
