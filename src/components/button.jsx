@@ -1,15 +1,13 @@
 import React from "react";
 
-const Button = ({ url, green, text = "", ...rest }) => {
-  const buttonStyle = green
-    ? "bg-green-700 hover:bg-green-800"
-    : "bg-yellow-500 hover:bg-yellow-600";
+const Button = ({ url, text = "", ...rest }) => {
+  const buttonStyle = "bg-yellow-400 hover:bg-yellow-300 text-green-600";
 
   return (
     <a href={url}>
       <button
         {...rest}
-        className={`text-white buttonFont pl-[35px] pr-[35px] pt-[15px] pb-[15px] rounded-full font-[public-sans] tracking-[0.25em] ${buttonStyle} transition`}
+        className={` buttonFont pl-[35px] pr-[35px] pt-[15px] pb-[15px] rounded-full font-[public-sans] tracking-[0.25em] ${buttonStyle} transition`}
       >
         {text}
       </button>

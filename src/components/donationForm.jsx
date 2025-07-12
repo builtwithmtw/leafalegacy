@@ -4,7 +4,7 @@ import Button from "./button";
 import InputField from "./InputField";
 import TextArea from "./Textarea";
 
-const DonationForm = () => {
+const DonationForm = ({ selectedForest }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
@@ -13,18 +13,9 @@ const DonationForm = () => {
     email: "",
     honoreeName: "",
     honoreeEmail: "",
-    forest: "",
+    forest: selectedForest,
     message: "",
   });
-
-  const forestList = [
-    "Tahoe National Forest (California)",
-    "Gunnison State Forest",
-    "Chattahoochee Oconee National Forest",
-    "Sawtooth National Forest",
-    "Allegheny National Forest",
-    "Tahoe National Forest (New York)",
-  ];
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -36,7 +27,7 @@ const DonationForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const url =
-      "https://script.google.com/macros/s/AKfycbyug6_Hy3V0GFUy3SpIx5ntH0gYRKwFQGYklJ0-SghsK0lQNuWwEQedlNubQimXDDk/exec";
+      "https://script.google.com/macros/s/AKfycbyv_hMfyaEmtU6-5JaXiomKgyZIVbAohBOd-9nREeJ-2v2wS9m-k0j07aVMoO6KUwrA/exec";
     const proxy = "https://corsproxy.io/?";
     setLoading(true);
 
@@ -79,6 +70,11 @@ const DonationForm = () => {
           Plant a tree in this location and your honoree will receive an eCard.
         </p>
 
+        <p className="mb-6 text-gray-600 font-light text-center tracking-wider">
+          Selected Forest :
+          <span className="font-semibold text-green-600">{selectedForest}</span>
+        </p>
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <InputField
             name="name"
@@ -110,23 +106,6 @@ const DonationForm = () => {
             value={formData.honoreeEmail}
             onChange={handleChange}
           />
-
-          <select
-            name="forest"
-            value={formData.forest}
-            onChange={handleChange}
-            required
-            className="w-full border  border-gray-300 rounded-[16px] px-5 py-4 text-[18px]  font-light tracking-wide outline-none focus:ring-2 focus:ring-green-500 transition"
-          >
-            <option value="" disabled>
-              Select Forest
-            </option>
-            {forestList.map((forest, index) => (
-              <option key={index} value={forest}>
-                {forest}
-              </option>
-            ))}
-          </select>
 
           <TextArea
             name="message"

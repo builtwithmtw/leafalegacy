@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import BackButton from "./backButton";
 
-const NavLogos = ({ header = "" }) => {
+const NavLogos = ({ header = "", backButton = true }) => {
   return (
     <>
       <div className="flex">
@@ -15,14 +15,14 @@ const NavLogos = ({ header = "" }) => {
       </div>
 
       {header && (
-        <span className="text-center text-5xl font-semibold text-gray-800">
+        <span className="text-center text-5xl font-semibold text-green-600">
           {header}
         </span>
       )}
 
       {/* Right logo */}
       <div className="flex justify-end">
-        <BackButton />
+        {backButton && <BackButton />}
         <img
           src="/logo2.png"
           alt="Right Logo"

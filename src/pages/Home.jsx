@@ -1,4 +1,5 @@
 import Button from "../components/button";
+import NavLogos from "../components/navLogos";
 import "../index.css"; // ✅ Ensure custom class is loaded
 import { Link } from "react-router-dom";
 
@@ -7,21 +8,7 @@ function Home() {
     <div className="h-screen relative bg-hero">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute top-0 left-0 right-0 flex items-center justify-between px-4 md:px-10">
-        {/* Left logo */}
-        <Link to="/">
-          <img
-            src="/logo2.png"
-            alt="Left Logo"
-            className="w-32 md:w-40 lg:w-48"
-          />
-        </Link>
-
-        {/* Right logo */}
-        <img
-          src="/logo1.png"
-          alt="Right Logo"
-          className="w-32 md:w-40 lg:w-48"
-        />
+        <NavLogos backButton={false} />
       </div>
 
       <div className="relative z-10 flex items-center  justify-center h-screen">

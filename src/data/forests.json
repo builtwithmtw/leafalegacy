@@ -1,56 +1,56 @@
 [
   {
-    "imageUrl": "/forest-1.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/1/Tahoe-National-Forest-1.png",
+    "detailImageUrl": "/images/1/Tahoe-National-Forest-2.png",
     "country": "USA",
     "state": "California",
     "forest": "Tahoe National Forest",
-    "description": "Severe wildfires have scarred the Tahoe National Forest, threatening iconic alpine ecosystems and the headwaters of the Yuba and American Rivers. By donating, you’re helping replant native pines and firs, stabilize erosion-prone slopes, and restore a forest that supports black bears, bald eagles, and millions of outdoor lovers each year. Let’s bring life back to the Sierra — one tree at a time.",
+    "description": "Planting a tree in the Tahoe National Forest helps restore areas devastated by recent wildfires, like the 2021 Caldor Fire, which burned thousands of acres of precious forest. Your tree will stabilize soils, reduce erosion into Lake Tahoe’s famously clear waters, and provide critical habitat for wildlife such as the black bear and spotted owl. It also helps rebuild popular recreation trails that were lost, ensuring hikers and outdoor enthusiasts can continue to explore this iconic landscape for generations to come. By choosing Tahoe, you’re preserving  beloved natural playground and protecting one of California’s most vital mountain ecosystems.",
     "id": 1
   },
   {
-    "imageUrl": "/forest-2.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/2/Gunnison-National-Forest-1.png",
+    "detailImageUrl": "/images/2/Gunnison-National-Forest-2.png",
     "country": "USA",
     "state": "Colorado",
-    "forest": "Gunnison State Forest",
-    "description": "Gunnison’s high alpine forests have been battered by wildfire, drought, and bark beetle infestations — leaving large swaths deforested. Guest support helps replant native spruce, aspen, and fir in a critical watershed that supports Colorado’s rivers and wildlife. Every tree planted helps build fire-resilient forests, restore habitat for elk and lynx, and preserve Colorado’s wild backbone.",
+    "forest": "GGunnison State Forest",
+    "description": "Support reforestation efforts in Colorado’s Gunnison State Forest, an area hit hard by bark beetle infestations and wildfires in recent decades. Planting here helps rebuild resilient forests, protect alpine watersheds crucial for local communities, and sustain habitats for elk, moose, and native birds. Your tree also helps safeguard the headwaters of the Gunnison River, a vital water source that supports agriculture and communities across western Colorado. When you choose Gunnison, you help keep the spirit of the wild Rockies alive and thriving for future generations.",
     "id": 2
   },
   {
-    "imageUrl": "/forest-3.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/3/Chattahoochee-Oconee-National-Forest-1.png",
+    "detailImageUrl": "/images/3/Chattahoochee-Oconee-National-Forest-1.png",
     "country": "USA",
     "state": "Georgia",
-    "forest": "Chattahoochee Oconee National Forest",
-    "description": "Georgia’s only national forest provides clean drinking water to millions, protects rare southern biodiversity, and offers green space for communities from Atlanta to the Appalachians. Replanting helps restore storm-damaged and eroded lands, rebuild habitat for native songbirds and salamanders, and keeps trails like the Appalachian Trail healthy for future hikers.",
+    "forest": "Chattahoochee-Oconee National Forest",
+    "description": "In Georgia’s Chattahoochee-Oconee National Forest, invasive pests like the hemlock woolly adelgid and severe storm damage have left gaps in these lush southern woodlands. Planting a tree here helps restore native species, support vital water sources for millions downstream, and maintain rich biodiversity, including songbirds and black bears. Additionally, your tree helps reduce the risk of future flooding and landslides in nearby communities, making this a gift that protects both nature and people. By choosing Georgia, you help preserve the green heart of the South and inspire future generations to cherish its natural beauty.",
     "id": 3
   },
   {
-    "imageUrl": "/forest-4.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/4/Sawtooth-National-Forest-1.png",
+    "detailImageUrl": "/images/4/Sawtooth-National-Forest-2.png",
     "country": "USA",
     "state": "Idaho",
     "forest": "Sawtooth National Forest",
-    "description": "The Sawtooth National Forest is a rugged landscape of alpine lakes, soaring peaks, and essential wildlife corridors. But fire and disease have left critical areas bare. Guest selection supports native tree replanting that protects the headwaters of the Snake River, provides nesting ground for hawks and owls, and secures a future for Idaho’s beloved backcountry.",
+    "description": "Planting a tree in Idaho’s Sawtooth National Forest helps restore fragile high-mountain ecosystems impacted by wildfires and invasive species like white pine blister rust. Your tree supports clean, cold water for native trout, revitalizes critical wildlife corridors for elk and wolves, and strengthens forests that protect local communities from erosion and landslides. By choosing Sawtooth, you help preserve Idaho’s iconic jagged peaks and wild alpine meadows, ensuring these breathtaking landscapes continue to inspire adventurers and nature lovers for years to come.",
     "id": 4
   },
   {
-    "imageUrl": "/forest-5.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/5/Allegheny-National-Forest-1.png",
+    "detailImageUrl": "/images/5/Allegheny-National-Forest-2.png",
     "country": "USA",
     "state": "Pennsylvania",
     "forest": "Allegheny National Forest",
-    "description": "Located in the foothills of the Appalachian Mountains, the Allegheny National Forest plays a vital role in sequestering carbon, filtering water, and sheltering wildlife from black bears to bobcats. Decades of oil extraction and invasive pests have degraded large sections. Replanting trees here helps heal old wounds, protect the Allegheny River, and preserve the only national forest in Pennsylvania for the next century.",
+    "description": "Support reforestation in Pennsylvania’s Allegheny National Forest, a rich hardwood forest deeply affected by logging history and recent pest outbreaks, including the emerald ash borer. Your tree helps restore native tree diversity, protect vital watersheds that supply drinking water to local towns, and provide habitat for black bears, bald eagles, and over 300 wildlife species. By choosing Allegheny, you help sustain the only national forest in Pennsylvania and preserve a beloved sanctuary of fall color, quiet trails, and rich Appalachian heritage.",
     "id": 5
   },
   {
-    "imageUrl": "/forest-6.jpg",
-    "detailImageUrl": "/forest-detail-2.jpg",
+    "imageUrl": "/images/6/New-Yourk-Urban-Tree-1.png",
+    "detailImageUrl": "/images/6/High-Bridge-Park-1.png",
     "country": "USA",
     "state": "New York",
-    "forest": "Tahoe National Forest",
-    "description": "New York's \"25 Million Trees by 2033\" initiative aims to plant 25 million trees by 2033 to combat climate change, enhance public health, and boost environmental resilience statewide. This comprehensive program involves large-scale planting, community engagement via the Tree Tracker, significant funding for nurseries and grants, and educational outreach. It prioritizes equitable distribution and supports the state's green economy, fostering a healthier, greener future for all New Yorkers.",
+    "forest": "NY State",
+    "description": "New York's \"25 Million Trees by 2033\" initiative reimagines both wild forests and city streets statewide. Your tree could either help restore native forests damaged by storms and longhorned beetles, protecting clean water and providing homes for wildlife like deer, foxes, and songbirds. Or In urban areas, the trees reduce air pollution, cool neighborhoods, and create greener, healthier spaces in places like Brooklyn’s playgrounds and Manhattan’s Highbridge Park. By planting with this organization, you connect New Yorkers to nature, strengthen local communities, and ensure a more vibrant, resilient state for generations to come.",
     "id": 6
   }
 ]
