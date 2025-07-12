@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = ({ url, text = "", ...rest }) => {
-  const buttonStyle = "bg-yellow-400 hover:bg-yellow-300 text-green-600";
+  const buttonStyle = "bg-yellow-400 hover:bg-yellow-300 text-[#49694E]";
 
   return (
     <a href={url}>

@@ -15,7 +15,7 @@ const NavLogos = ({ header = "", backButton = true }) => {
       </div>
 
       {header && (
-        <span className="text-center text-5xl font-semibold text-green-600">
+        <span className="text-center text-5xl font-semibold text-[#49694E]">
           {header}
         </span>
       )}
