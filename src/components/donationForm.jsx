@@ -27,7 +27,7 @@ const DonationForm = ({ selectedForest }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const url =
-      "https://script.google.com/macros/s/AKfycbyv_hMfyaEmtU6-5JaXiomKgyZIVbAohBOd-9nREeJ-2v2wS9m-k0j07aVMoO6KUwrA/exec";
+      "https://script.google.com/macros/s/AKfycbwYFVMZrrJOPNZ4J6zAOPJ6jQR_3SZxJvGLRuG2n1wl6agYOqUfIl0CemOq7z40yuP-/exec";
     const proxy = "https://corsproxy.io/?";
     setLoading(true);
 
